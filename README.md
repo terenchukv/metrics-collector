@@ -1,5 +1,6 @@
 # Python script which prints basic information about your OS to console. And Docker container.
 Simple Python script which prints server metrics to console. Implemented metrics for CPU usage, RAM usage, disk partition and usage, running processes information.
+# Docker Hub link - https://hub.docker.com/r/terenchukv/metrics-container
 
 # REQUIREMENTS
 - Linux OS 
@@ -74,6 +75,13 @@ get processes information
 docker run --rm --privileged --pid=host -it -v /etc/passwd:/etc/passwd:ro metrics-container proc
 ```
 Note! We need to mount /etc/passwd into docker container with ```-v /etc/passwd:/etc/passwd:ro``` for correct username mapping.
+
+# Installation on bare system
+- Instal python3.6+ and pip
+- Install psutil:
+```
+pip install psutil
+```
 
 # Usage on bare system 
 Run python script with one of arguments:
