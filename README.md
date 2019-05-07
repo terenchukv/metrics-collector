@@ -1,6 +1,6 @@
 # Python script which prints basic information about your OS to console. And Docker container.
 Simple Python script which prints server metrics to console. Implemented metrics for CPU usage, RAM usage, disk partition and usage, running processes information.
-# Docker Hub link - https://hub.docker.com/r/terenchukv/metrics-container
+- Docker Hub link - https://hub.docker.com/r/terenchukv/metrics-container
 
 # REQUIREMENTS
 - Linux OS 
